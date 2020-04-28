@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Carousel </string>
+
+    <string name="count_indicator_text">"%1$d/%2$d"</string>
+</resources>
