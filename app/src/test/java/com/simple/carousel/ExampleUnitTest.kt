@@ -1,4 +1,4 @@
-package com.dood.bhcarousel
+package com.simple.carousel
 
 import org.junit.Test
 
