@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout, viewPager) { _, _ -> }.attach()
     }
 
-    private fun initialiseViewPager() = findViewById<ViewPager2>(R.id.viewPagerShow).apply {
+    private fun initialiseViewPager() = findViewById<ViewPager2>(R.id.carouselViewPager).apply {
         adapter = ImagePagerAdapter(context).apply {
             items = images
             notifyDataSetChanged()

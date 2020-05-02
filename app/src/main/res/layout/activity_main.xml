@@ -7,7 +7,7 @@
     tools:context="com.simple.carousel.MainActivity">
 
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPagerShow"
+        android:id="@+id/carouselViewPager"
         android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="300dp" />
@@ -16,7 +16,7 @@
         android:id="@+id/indicatorTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/viewPagerShow"
+        android:layout_below="@+id/carouselViewPager"
         android:layout_gravity="bottom"
         app:tabBackground="@drawable/tab_selector"
         app:tabGravity="center"
